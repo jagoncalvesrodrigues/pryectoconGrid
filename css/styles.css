@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 body{
     margin: 0;
@@ -18,4 +19,41 @@ ul{
     padding-left: 0;
     margin-top: 0;
     margin-bottom: 0;
+}
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.hero{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-auto-rows: 400px;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.info-title {
+    color: #333;
+    font-size: 4rem;
+    font-weight: 900;
+    margin-bottom: 24px;
+}
+
+.info-subtitle {
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 24px;
+}
+
+.info-button {
+    border: none;
+    border-radius: 20px;
+    color: #333;
+    background-color: #fb8c00;
+    font-weight: 900;
+    padding: 12px 24px;
 }
